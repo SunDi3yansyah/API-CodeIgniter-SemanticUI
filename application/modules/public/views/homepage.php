@@ -83,7 +83,7 @@
           </div>
           <div class="ui bottom attached button">
             <i class="connectdevelop icon"></i>
-            <?php if ($repo->language == NULL): ?>
+            <?php if ($repo->language === NULL): ?>
               No Language
             <?php else: ?>
               <?php echo $repo->language; ?>
